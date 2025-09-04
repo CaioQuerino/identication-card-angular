@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="navigateToHome()">
+        <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Sobre Mim</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Sobre Mim</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Caio Querino</ion-card-title>
+      <ion-card-subtitle>Desenvolvedor Mobile</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-text>
+        <p>Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e desenvolvimento mobile. 
+        Atualmente estou aprendendo Ionic Framework com Angular para criar aplicativos híbridos.</p>
+
+        <p>Na disciplina de Programação Móvel, estamos explorando os conceitos fundamentais para criar aplicativos que 
+        funcionem tanto em Android quanto em iOS, utilizando tecnologias web como HTML, CSS e JavaScript.</p>
+
+        <p>No meu tempo livre, gosto de contribuir para projetos open source, aprender novas tecnologias e participar de 
+        maratonas de programação.</p>
+      </ion-text>
+
+      <ion-list lines="none" class="ion-margin-top">
+        <ion-item>
+          <ion-icon name="rocket" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>Habilidades Técnicas</h3>
+            <p>Angular, Ionic, TypeScript, JavaScript</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="book" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>Formação</h3>
+            <p>Análise e Desenvolvimento de Sistemas</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="heart" slot="start" color="primary"></ion-icon>
+          <ion-label>
+            <h3>Interesses</h3>
+            <p>Mobile Development, UI/UX Design, Open Source</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+
+      <ion-button expand="block" (click)="navigateToHome()" class="ion-margin-top">
+        <ion-icon name="arrow-back" slot="start"></ion-icon>
+        Voltar ao cartão
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
