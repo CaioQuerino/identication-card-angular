@@ -48,11 +48,7 @@ import { arrowBack, rocket, book, heart } from 'ionicons/icons';
 })
 export class AboutPage {
 
-  constructor(private router: Router) {
+  constructor() {
     addIcons({ arrowBack, rocket, book, heart });
-  }
-
-  navigateToHome() {
-    this.router.navigate(['/']);
   }
 }
