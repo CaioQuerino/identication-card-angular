@@ -1,5 +1,6 @@
 # Documentação do Projeto: Cartão de Identificação Digital
-## 📋 Índice
+
+# 📋 Índice
 
 [1. Visão Geral do Projeto](#visão-geral-do-projeto)
 
@@ -11,11 +12,9 @@
 
 [5. Como Executar o Projeto](#como-executar-o-projeto)
 
-[6. Capturas de Tela]()
+[6. Capturas de Tela](#capturas-de-tela)
 
 [7. Link do Repositório](#link-do-repositório)
-
-[8. Considerações Finais]()
 
 # Visão Geral do Projeto
 O Cartão de Identificação Digital é uma aplicação web desenvolvida com Angular 17 e Ionic 7, utilizando a arquitetura de componentes standalone. A aplicação permite que estudantes apresentem suas informações acadêmicas de forma digital, com navegação entre telas e interface moderna.
@@ -124,13 +123,11 @@ ng serve
 http://localhost:4200
 ```
 
+# Capturas de Tela
+![Página Home](./src/assets/img/home.png)
+![Página About](./src/assets/img/about.png)
 # Link do Repositório
 [Identification card](https://github.com/CaioQuerino/identication-card-angular)
-
-# Considerações Finais
-Este projeto demonstra a aplicação dos conceitos de desenvolvimento móvel com Ionic e Angular, implementando uma solução completa que atende aos requisitos solicitados na avaliação. A arquitetura de componentes standalone do Angular proporciona uma base sólida para futuras expansões e manutenção do código.
-
-O cartão de identificação digital desenvolvido oferece uma experiência de usuário intuitiva e agradável, com design responsivo que funciona perfeitamente em dispositivos móveis e desktop.
 
 ___
 ```
