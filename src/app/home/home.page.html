@@ -1,0 +1,78 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Cartão de Identificação</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cartão de Identificação</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="content-container">
+    <ion-card class="id-card">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">Caio Querino</ion-card-title>
+        <ion-card-subtitle class="ion-text-center">Turma: ADS2024-1</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        <div class="avatar-container ion-text-center">
+          <ion-avatar class="avatar">
+            <img src="../../assets/img/caio.png" alt="Foto do Caio">
+          </ion-avatar>
+        </div>
+
+        <ion-list lines="none">
+          <ion-item>
+            <ion-icon name="school" slot="start"></ion-icon>
+            <ion-label>Análise e Desenvolvimento de Sistemas</ion-label>
+          </ion-item>
+          
+          <ion-item>
+            <ion-icon name="mail" slot="start"></ion-icon>
+            <ion-label>caio.querino.react@email.com</ion-label>
+          </ion-item>
+          
+          <ion-item>
+            <ion-icon name="call" slot="start"></ion-icon>
+            <ion-label>(21) 99503-7431</ion-label>
+          </ion-item>
+        </ion-list>
+
+        <ion-button expand="block" (click)="navigateToAbout()" class="ion-margin-top">
+          <ion-icon name="information-circle" slot="start"></ion-icon>
+          Ver mais informações
+        </ion-button>
+
+        <ion-grid class="ion-margin-top">
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="auto">
+              <ion-button 
+                fill="clear" 
+                size="small"
+                href="https://github.com/CaioQuerino"
+                target="black"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </ion-button>
+            </ion-col>
+            <ion-col size="auto">
+              <ion-button 
+                fill="clear" 
+                size="small"
+                href="https://www.linkedin.com/in/caio-querino-1257622a5/"
+                target="black"
+              >
+                <ion-icon 
+                name="logo-linkedin"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
