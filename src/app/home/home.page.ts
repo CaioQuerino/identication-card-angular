@@ -61,14 +61,10 @@ import {
 })
 export class HomePage {
 
-  constructor(private router: Router) {
+  constructor() {
     addIcons({ 
       person, school, mail, call, informationCircle,
       logoGithub, logoLinkedin, logoInstagram 
     });
-  }
-
-  navigateToAbout() {
-    this.router.navigate(['/about']);
   }
 }
