@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { 
   IonHeader, 
   IonToolbar, 
@@ -42,7 +42,8 @@ import { arrowBack, rocket, book, heart } from 'ionicons/icons';
     IonLabel,
     IonIcon,
     IonButton,
-    IonButtons
+    IonButtons,
+    RouterLink
   ]
 })
 export class AboutPage {
